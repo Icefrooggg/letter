@@ -51,7 +51,7 @@ body {
   place-items: end center
 }
 
-h1 {
+p1 {
   font-family: 'Arial', sans-serif;
   font-size: 1.5em;
   color: #ff69b4;
@@ -88,7 +88,7 @@ h1 {
   }
 }
 
-h1::before, h1::after {
+p1::before, p1::after {
   content: '';
   position: absolute;
   top: 50%;
@@ -98,12 +98,12 @@ h1::before, h1::after {
   animation: slideIn 3s ease-in-out;
 }
 
-h1::before {
+p1::before {
   left: 0;
   transform: translateX(-100%);
 }
 
-h1::after {
+p1::after {
   right: 0;
   transform: translateX(100%);
 }
